@@ -1,0 +1,30 @@
+.hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hours__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 10px;
+  }
+  
+  .hours__title {
+    font-size: 48px;
+    font-weight: 300;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .hours__title {
+      font-size: 96px;
+    }
+  }
+  
