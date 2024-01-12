@@ -12,48 +12,50 @@ export default function Hours() {
         <h1 className={styles.hours__title}>Mandir hours</h1>
         <div className={styles.hours__text}>
           <table>
-            <tr>
-              <td>
-                <strong>Mon</strong>
-              </td>
-              <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Tue</strong>
-              </td>
-              <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Wed</strong>
-              </td>
-              <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Thu</strong>
-              </td>
-              <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Fri</strong>
-              </td>
-              <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Sat</strong>
-              </td>
-              <td>9:00 AM - 9:00 PM</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>Sun</strong>
-              </td>
-              <td>9:00 AM - 9:00 PM</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Mon</strong>
+                </td>
+                <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Tue</strong>
+                </td>
+                <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Wed</strong>
+                </td>
+                <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Thu</strong>
+                </td>
+                <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Fri</strong>
+                </td>
+                <td>9:00 AM - 1:00 PM; 5:00 PM - 9:00 PM</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Sat</strong>
+                </td>
+                <td>9:00 AM - 9:00 PM</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Sun</strong>
+                </td>
+                <td>9:00 AM - 9:00 PM</td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <h3 className={styles.hours__info}>
